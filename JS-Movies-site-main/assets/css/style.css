@@ -1,0 +1,130 @@
+body {
+  background-color: rgb(36, 36, 36);
+}
+body .color-white {
+  color: white;
+}
+body .bar-red {
+  width: 100%;
+  height: 7vh;
+  background-color: rgb(236, 63, 63);
+  justify-content: space-between;
+  align-items: center;
+}
+body .bar-red .logo {
+  align-items: center;
+  margin-left: 2%;
+}
+body .bar-red .info {
+  justify-content: space-between;
+  margin-right: 2%;
+  align-items: center;
+}
+body .bar-red .info button {
+  margin: 2%;
+  background-color: transparent;
+  border: none;
+  height: 4vh;
+  font-size: 15px;
+}
+body .bar-red .info .photo {
+  padding: 1%;
+  text-align: center;
+}
+body .bar-red .info .photo img {
+  border-radius: 50%;
+}
+body .all-body .menu {
+  width: 20%;
+  background-color: black;
+}
+body .all-body .menu ul {
+  margin: 10% 0;
+}
+body .all-body .menu ul li {
+  padding: 5% 0%;
+  font-size: 20px;
+  margin: 2% 0;
+}
+body .all-body .menu ul li a {
+  color: white;
+  margin-left: 20%;
+}
+body .all-body .menu ul li:hover {
+  background-color: gray;
+}
+body .all-body .menu hr {
+  width: 80%;
+  margin-left: 10%;
+}
+body .all-body .menu .activity {
+  margin: 10%;
+}
+body .all-body .menu .activity h4 {
+  color: white;
+  font-size: 24px;
+}
+body .all-body .menu .activity .users {
+  display: flex;
+  align-items: center;
+  margin: 15% 0;
+}
+body .all-body .menu .activity .users img {
+  border-radius: 50%;
+  margin: 5%;
+}
+body .all-body .menu .activity .users .text p {
+  color: white;
+  font-size: 16px;
+}
+body .all-body .menu .activity .users .text span {
+  color: rgb(196, 185, 185);
+}
+body .all-body .new-r {
+  width: 80%;
+  margin: 2%;
+}
+body .all-body .new-r h1 {
+  color: white;
+}
+body .all-body .new-r .films .item {
+  margin: 1%;
+  position: relative;
+}
+body .all-body .new-r .films .item .names {
+  margin-top: 3%;
+}
+body .all-body .new-r .films .item .names p {
+  color: white;
+}
+body .all-body .new-r .films .item .names span {
+  color: rgb(196, 185, 185);
+}
+body .all-body .new-r .films .item .star {
+  position: absolute;
+  top: -10px;
+  left: 60px;
+  background-color: rgb(235, 193, 6);
+  width: 70px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-radius: 40px;
+}
+body .all-body .new-r .films .item .bg {
+  width: 180px;
+  height: 240px;
+  background-size: 100%;
+  transition: 0.25s;
+  background-position: center;
+}
+body .all-body .new-r .films .item:hover .bg {
+  background-color: rgb(236, 63, 63);
+  opacity: 0.5;
+  background-position: center;
+  background-size: 110%;
+  background-repeat: no-repeat;
+}/*# sourceMappingURL=style.css.map */
